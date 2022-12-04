@@ -377,9 +377,9 @@ img {
   }
 }
 
-@media screen and (min-height: 60px) and (max-height: 500px){
+@media screen and (min-height: 400px) and (max-height: 500px){
   .home__title {
-    margin-top: 30rem;
+    margin-top: 7rem;
   }
 }
 
