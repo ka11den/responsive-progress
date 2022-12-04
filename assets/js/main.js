@@ -31,3 +31,10 @@ function sendEmail () {
   })
   .catch((err) => console.log(err))
 }
+
+const btns = document.querySelectorAll('.home__btn')
+const isDarkTheme = window?.matchMedia('(prefers-color-schema: dark)').matches
+
+btns.forEach((btn) => {
+  isDarkTheme ? btn.classList.add('white') : ''
+})

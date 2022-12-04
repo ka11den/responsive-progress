@@ -6,10 +6,6 @@
   margin: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 input {
   background: none;
   outline: none;
@@ -390,6 +386,13 @@ img {
   .home__title {
     margin-top: 7rem;
   }
+  .feedback__content {
+    position: relative;
+    padding: .3rem;
+  }
+  .feedback__inpt {
+    padding: .2rem;
+  }
   .triangle-1 {
     width: 400px;
   }
@@ -404,6 +407,13 @@ img {
 @media screen and (min-height: 500px) and (max-height: 620px){
   .home__title {
     margin-top: 12rem;
+  }
+  .feedback__content {
+    position: relative;
+    padding: .3rem;
+  }
+  .feedback__inpt {
+    padding: .2rem;
   }
 }
 
@@ -468,4 +478,8 @@ img {
 
 .snow {
   display: flex;
+}
+
+.white {
+  background-color: #FDFEFF;
 }
