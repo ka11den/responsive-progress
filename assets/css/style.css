@@ -375,11 +375,29 @@ img {
   .home__title {
     font-size: 2em;
   }
+  .triangle-1 {
+    width: 400px;
+  }
+  .triangle-2 {
+    width: 400px;
+  }
+  .triangle-3 {
+    width: 400px;
+  }
 }
 
-@media screen and (min-height: 400px) and (max-height: 500px){
+@media screen and (min-height: 300px) and (max-height: 500px){
   .home__title {
     margin-top: 7rem;
+  }
+  .triangle-1 {
+    width: 400px;
+  }
+  .triangle-2 {
+    width: 400px;
+  }
+  .triangle-3 {
+    width: 400px;
   }
 }
 
