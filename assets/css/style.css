@@ -430,6 +430,12 @@ img {
   }
 }
 
+@media screen and (min-height: 500px) and (max-height: 800px){
+  .home__images img {
+    width: 700px;
+  }
+}
+
 @media screen and (min-height: 300px) and (max-height: 500px){
   .home__container  {
     padding-top: 12rem;
