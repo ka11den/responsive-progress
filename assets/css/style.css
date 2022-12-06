@@ -542,7 +542,7 @@ img {
 
 @media screen and (min-width: 1000px) {
   .home__title {
-    font-size: 5em;
+    font-size: 4em;
   }
   .home__images img {
     width: 1000px;
@@ -550,6 +550,9 @@ img {
 }
 
 @media screen and (min-width: 1350px) {
+  .home__title {
+    font-size: 5em;
+  }
   .home__images img {
     width: 1100px;
   }
