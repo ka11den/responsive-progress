@@ -549,7 +549,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-height: 878px) {
   .home__title {
     font-size: 5em;
   }
