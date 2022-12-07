@@ -548,7 +548,10 @@ img {
     width: 600px;
   }
   .home__container {
-    height: 20vh;
+    height: 60vh;
+  }
+  h1 {
+    font-size: 2em;
   }
 }
 
