@@ -44,17 +44,18 @@
               <h1 class="feedback__title">Оставьте свои контакты, менеджер свяжется с вами</h1>
                 <div class="feedback__data">
                   <h1 class="feedback__subtitle">Ваше имя</h1>
-                  <input type="text" class="feedback__inpt" placeholder="Ваше имя" id="name">
+                  <input type="text" class="feedback__inpt" placeholder="Ваше имя" id="name" required>
                 </div>
                 <div class="feedback__data">
                   <h1 class="feedback__subtitle">Телефон</h1>
-                  <input  class="feedback__inpt" placeholder="Телефон" id="phone">
+                  <input  class="feedback__inpt" placeholder="Телефон" id="phone" required>
                 </div>
                 <div class="feedback__data">
                   <h1 class="feedback__subtitle">E-mail</h1>
-                  <input type="email" class="feedback__inpt" placeholder="e-mail" id="email">
+                  <input type="email" class="feedback__inpt" placeholder="e-mail" id="email" required>
                 </div>
-                <div class="feedback__checkbox">
+                <h1 class="modal__error" id="error"></h1>
+                <div class="feedback__checkbox" id="feedback__checkbox">
                   <input type="checkbox" id="checkbox" name="checkbox" placeholder="checkbox">
                   <p class="feedback__desc">Нажимая кнопку "Оправить", <br>вы даете <a class="feedback__link" href="./assets/img/Soglasie_na_obrabotku_personalnykh_dannykh_Progress (4).docx">согласие на обработку персональных данных</a></p>
                 </div>
