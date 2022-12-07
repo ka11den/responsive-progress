@@ -72,7 +72,7 @@ img {
 }
 
 .nav {
-  height: 7rem;
+  height: 12rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -259,14 +259,14 @@ img {
 
 .triangle-2 {
   position: fixed;
-  left: -100px;
-  bottom: -20px;
+  left: -110px;
+  bottom: -30px;
 }
 
 .triangle-3 {
   position: fixed;
-  left: -105px;
-  bottom: 0px;
+  left: -120px;
+  bottom: -10px;
 }
 
 .home__images {
@@ -406,17 +406,17 @@ img {
   }
   .triangle-1 {
     position: fixed;
-    left: 0;
+    left: -50px;
     bottom: 0;
   }  
   .triangle-2 {
     position: fixed;
-    left: 0;
+    left: -50px;
     bottom: 0;
   }  
   .triangle-3 {
     position: fixed;
-    left: 0;
+    left: -50px;
     bottom: 0;
   }
   .company {
@@ -483,12 +483,12 @@ img {
   }  
   .triangle-2 {
     position: fixed;
-    left: -150px;
-    bottom: -30px;
+    left: -157px;
+    bottom: -40px;
   }  
   .triangle-3 {
     position: fixed;
-    left: -150px;
+    left: -165px;
     bottom: -20px;
   }
 }
