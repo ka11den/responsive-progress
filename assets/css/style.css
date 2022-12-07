@@ -92,7 +92,7 @@ img {
 }
 
 .nav__logo-img {
-  width: 130px;
+  width: 170px;
 }
 
 .nav__link {
@@ -186,7 +186,7 @@ img {
 /* css */
 
 .container {
-  max-width: 100%;
+  max-width: 1700px;
   margin-inline: 1.5rem;
 }
 
@@ -396,7 +396,7 @@ img {
     padding: .5rem 3rem;
   }
   .nav__logo-img {
-    width: 150px;
+    width: 230px;
   }
   .home__images img {
     width: 1000px;
@@ -559,13 +559,6 @@ img {
   background-color: #D53119;
   color: #fff;
 }
-
-@media screen and (min-height: 100px) and (max-height: 706px) {
-  .header {
-    position: relative;
-  }
-}
-
 
 @media screen and (min-width: 1000px) and (min-height: 878px) {
   .home__title {
