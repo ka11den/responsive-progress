@@ -431,6 +431,9 @@ img {
   .nav {
     height: 12rem;
   }
+  .container {
+    margin-inline: 4.5rem;
+  }
 }
 
 @media screen and (min-height: 300px) and (max-height: 577px){
