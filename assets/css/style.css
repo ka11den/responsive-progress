@@ -65,9 +65,6 @@ img {
 
 .header {
   width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
   z-index: 1000;
 }
 
@@ -186,7 +183,7 @@ img {
 /* css */
 
 .container {
-  max-width: 1700px;
+  max-width: 1500px;
   margin-inline: 1.5rem;
 }
 
@@ -201,7 +198,7 @@ img {
 }
 
 .home__container {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -248,7 +245,7 @@ img {
 }
 
 .home__images img {
-  width: 850px;
+  width: 750px;
 }
 
 .triangle-1 {
@@ -474,7 +471,7 @@ img {
 
 @media screen and (min-height: 815px) and (max-height: 850px){
   .home__images img {
-    width: 880px;
+    width: 750px;
   }
   .triangle-1 {
     position: fixed;
@@ -562,10 +559,10 @@ img {
 
 @media screen and (min-width: 1000px) and (min-height: 878px) {
   .home__title {
-    font-size: 5em;
+    font-size: 6em;
   }
   .home__images img {
-    width: 1100px;
+    width: 1000px;
   }
 }
 
@@ -577,7 +574,7 @@ img {
 
 @media screen and (min-height: 800px) and (min-width: 1500px) {
   .home__images img {
-    width: 1300px;
+    width: 1100px;
   }
 }
 
