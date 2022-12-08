@@ -143,6 +143,10 @@ img {
   opacity: 1;
 }
 
+.nav__title {
+  font-size: 2em;
+}
+
 .active__link:after {
   content: "";
   display: block;
@@ -270,6 +274,16 @@ img {
   z-index: -1;
 }
 
+.home__desc {
+  display: none;
+  margin-top: 1rem;
+  font-size: 4em;
+}
+
+.home__link {
+  color: #fff;
+}
+
 /* modal */
 
 .modal__feedback {
@@ -388,6 +402,12 @@ img {
   .home__btns {
     display: inline-block;
     flex-direction: column;
+  }
+  .nav__title {
+    display: none;
+  }
+  .home__desc {
+    display: block;
   }
   .home__container {
     height: 70vh;
