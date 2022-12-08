@@ -204,7 +204,7 @@ img {
 
 .home__container {
   display: flex;
-  height: 45vh;
+  height: 56vh;
   flex-direction: column;
   justify-content: center;
 }
@@ -386,6 +386,19 @@ img {
     line-height: 1em;
   }
 }
+
+@media screen and (max-width: 342px) {
+  .nav__title {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 312px) {
+  .nav__title {
+    font-size: 1em;
+  }
+}
+
 
 @media screen and (min-width: 319px) and (max-width: 386px) {
   .home__title {
