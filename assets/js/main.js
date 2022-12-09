@@ -21,8 +21,8 @@ function sendEmail () {
     email: document.getElementById('email').value,
   }
 
-  const serviceID = 'service_rzx1nv9'
-  const templateID = 'template_rmikegm'
+  const serviceID = 'service_tx60lkj'
+  const templateID = 'template_h61ykba'
 
   let checkbox = document.querySelector('#checkbox');
   
@@ -40,24 +40,25 @@ function sendEmail () {
         phone1.classList.remove("error")
         email1.classList.remove("error")
       }, 3000)
-    }
-    emailjs
-    .send(serviceID, templateID, params)
-    .then((res) => {
-        sendEmailAdmin(params)
-        document.getElementById('name').value = '';
-        document.getElementById('email').value = '';
-        document.getElementById('phone').value = '';
-        
-        // add message
-        error.textContent = "Сообщение успешно отправлено!"
-
-        // error message
-        setTimeout(() => {
-          error.textContent = ''
-        }, 3000)
-    })
-    .catch((err) => console.log("Заполните форму"))
+    } else {
+      emailjs
+      .send(serviceID, templateID, params)
+      .then((res) => {
+          sendEmailAdmin(params)
+          document.getElementById('name').value = '';
+          document.getElementById('email').value = '';
+          document.getElementById('phone').value = '';
+          
+          // add message
+          error.textContent = "Сообщение успешно отправлено!"
+  
+          // error message
+          setTimeout(() => {
+            error.textContent = ''
+          }, 3000)
+      })
+      .catch((err) => console.log("Заполните форму"))
+    }   
   } else {    
     // add message
     error.textContent = "поставьте галочку"
@@ -71,8 +72,8 @@ function sendEmail () {
 
 function sendEmailAdmin (params) {
 
-  const serviceID = 'service_rzx1nv9'
-  const templateID = 'template_alsb1ka'
+  const serviceID = 'service_tx60lkj'
+  const templateID = 'template_sndntlo'
 
   emailjs.send(serviceID, templateID, params).then((res) => {
     document.getElementById('name').value = '';
